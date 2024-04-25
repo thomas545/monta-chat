@@ -35,7 +35,7 @@ async def login(
     db_user = get_user({"email": email})
 
     if not db_user or not verify_password(password, db_user.get("password")):
-        raise HTTPException(403, "Invalid User")
+        raise HTTPException(403, "Invalid User email / Password")
     
     if  not db_user.get("is_active"):
         raise HTTPException(401, "Account is inactive")
