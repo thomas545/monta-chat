@@ -19,7 +19,15 @@ Chat application using Genimi & Python, which is a powerful and flexible open-so
 ## API Documentation
 
 - [Local Docs](http://127.0.0.1:8000/docs)
+- [Live Docs](https://monta-chat.onrender.com/docs)
 
+## Tech Stack
+- Python 3.10+
+- FastAPI
+- Langchain
+- Google Gemini
+- MongoDB
+- uvicorn
 
 #### ENV Keys
 - MONGO_URI="xxxxxxxx"
