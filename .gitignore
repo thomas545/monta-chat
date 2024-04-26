@@ -55,3 +55,4 @@ Thumbs.db
 local_docker.py
 local.py
 .vscode
+__pycache__
