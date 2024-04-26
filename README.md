@@ -29,7 +29,7 @@ Chat application using Genimi & Python, which is a powerful and flexible open-so
 - MongoDB
 - uvicorn
 
-#### ENV Keys
+## ENV Keys
 - MONGO_URI="xxxxxxxx"
 - SECRET_KEY="xxxxxxxx"
 - ALGORITHM="xxxxxxxx"
